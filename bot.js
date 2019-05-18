@@ -54,9 +54,9 @@ const prefix = "-"
         errors: ['time']
       })
       .then(collected => {
-        if(collected.first().content === '.Good') {
-          rank = 'Good S'
-          price = 40000
+        if(collected.first().content === '-Epic - S') {
+          rank = 'EPic S'
+          price = 120k
           	  let price2 = price - ( (price * 5) / 100 )
 
                     let mrx = new Discord.RichEmbed()
